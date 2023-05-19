@@ -1,0 +1,42 @@
+
+label{
+      text-align: left;	
+	font-size: 20px;
+}
+
+
+h1{
+  font-size:1.5em;
+  color:#525252;
+      text-align: center;
+}
+
+.letracambio{
+	font-size:15px;
+	font-weight:bold;
+	color:white;
+}
+
+
+.box{
+  background:#ffffff;
+  width:400px;
+  border-radius:6px;
+  margin: 0 auto 0 auto;
+  padding:0px 0px 20px 0px;
+  border: #0000ff 4px solid;
+}
+
+.box2{
+  background:#0000ff;
+  width:400px;
+  border-radius:6px;
+  margin: 0 auto 0 auto;
+  padding:0px 0px 20px 0px;
+  border: #0000ff 4px solid;
+  	text-align:center;
+}
+
+
+
+

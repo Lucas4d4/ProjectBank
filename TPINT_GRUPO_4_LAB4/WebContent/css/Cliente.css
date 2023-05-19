@@ -1,0 +1,94 @@
+@charset "ISO-8859-1";
+
+.styled-table-Alta{
+	border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 500px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    margin-left:auto;
+    margin-right:auto;
+    border-radius: 20px;
+}
+
+.styled-table-Alta thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: center;
+}
+
+.styled-table-Alta th,
+.styled-table-Alta td {
+    padding: 12px 15px;
+}
+
+.styled-table-Alta tbody tr {
+	background-color: #009879;
+    border-bottom: 1px solid #009879;
+    color: #ffffff;
+    	font-weight: bold;
+    	
+}
+
+
+
+.styled-table-Alta tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+.styled-table-Alta tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+}
+
+.h1{
+	text-align:center;
+}
+
+.btnAceptar{
+	font-size:10x;
+	border: 1px solid #2e518b; /*anchura, estilo y color borde*/
+	padding: 10px; /*espacio alrededor texto*/
+	background-color: #2e518b; /*color botón*/
+	color: #ffffff; /*color texto*/
+	text-decoration: none; /*decoración texto*/
+	text-transform: uppercase; /*capitalización texto*/
+	font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+	border-radius: 50px; /*bordes redondos*/
+}
+
+
+* {
+  padding: 0;
+  margin: 0;
+}
+p {
+  margin-bottom: 20px;
+}
+.wrapper {
+  width: 80%;
+  margin: auto;
+  overflow:hidden;
+}
+header {
+  background: rgba(0,0,0,0.9);
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+}
+
+nav{
+	position:absolute;
+  top:0;
+}
+
+.tituloClientess{
+	text-align:center;
+    font-size:30px;
+	color:#ffffff;
+	font-weight: bold;
+	background-color:#0000ff;
+	
+}
+
